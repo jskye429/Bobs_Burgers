@@ -1,10 +1,8 @@
-INSERT INTO burger (burger_type, eaten);
-VALUES (burger, true);
+INSERT INTO burgers( burger_type, eaten)
+values ('burger', true);
 
-INSERT INTO burger (burger_type, eaten);
-VALUES (chesseburger, false);
+INSERT INTO burgers (burger_type, eaten)
+VALUES ('chesseburger', true);
 
-INSERT INTO burger (burger_type, eaten);
-VALUES (doubleburger, true);
-
-
+INSERT INTO burgers (burger_type, eaten)
+VALUES ('doubleburger', true);
